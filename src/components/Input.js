@@ -22,7 +22,7 @@ function Input( {onAdd} ) {
     	<input
           class="input"
           type="text"
-          placeholder="Enter to add"
+          placeholder="ToDoを入力してください"
           value={text}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
